@@ -1,0 +1,51 @@
+.join-container{
+    display: flex;
+    padding: 15px;
+}
+
+.border-line-left-black{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0 0 0 1;
+}
+
+.join-form-container{
+    width: 50%;
+    padding: 20px;
+}
+
+.join-form-container hr{
+    margin-bottom: 15px;
+}
+
+.join-form-container form{
+    padding: 20px 0px;
+}
+
+.join-form-container label{
+    font-size: 18px;
+}
+
+.join-form-container input, textarea{
+    height: 4vh;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.join-form-container button{
+    width: 6vw;
+    min-width: max-content; 
+    font-size: 16px;
+    padding: 12px 25px;
+    float: right;
+    background-color: #f4a025;
+    border-radius: 5px;
+    border: solid 1 black;
+    color: white;
+}
+
+.join-form-container button:hover{
+    background-color: #18bb09;
+}

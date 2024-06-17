@@ -1,0 +1,114 @@
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #e8f5ff;
+    font-family: Arial;
+}
+
+.body-container{
+    display: flex;
+    padding: 25px 0px;
+}
+
+
+/* main-container */
+.main-container {
+    margin: auto;
+    font-size: 28px;
+    width: 50%;
+}
+
+.main-container h2 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-container .card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+}
+
+.main-container .card table {
+    border: none;
+    font-size: 16px;
+    height: 270px;
+    width: 80%;
+}
+
+.edit {
+    position: absolute;
+    color: #e7e7e8;
+    right: 14%;
+}
+
+
+.btn-container{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.dlt-button{
+    background-color: tomato;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 0px 5px;
+}
+
+.edit-button{
+    background-color: rgb(255, 191, 71);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+.logout-button{
+    background-color: rgb(255, 123, 71);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 0px 5px;
+}
+
+
+/* Update Form */
+
+.update-btn{
+    background-color: rgb(255, 191, 71);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.update-body label{
+    font-size: 18px;
+}
+
+.update-body  input{
+    height: 4vh;
+    width: 90%;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
